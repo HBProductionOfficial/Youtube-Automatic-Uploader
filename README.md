@@ -8,7 +8,8 @@ This Google Apps Script automates the process of uploading scheduled videos to Y
 - Add uploaded videos to specified playlists
 - Upload .sbv subtitle files if available
 - Automatically generate and apply translations for titles and descriptions
-- Mark videos as "UPLOADED" and clean up files after upload
+- Mark videos as "UPLOADED" so it won't be uploaded again on the channel
+- There is also a separate function that you can execute. which will put UPLOADED videos into trashbin
 
 📂 Folder Structure:
 - Expects videos to be in a folder named YoutubeVideos (you can rename it if you want)
