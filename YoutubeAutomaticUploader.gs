@@ -204,7 +204,7 @@ function getPlaylistIdByName(name) {
 }
 
 function getTranslations(enTitle, enDesc) {
-  const languages = ["ka", "de", "fr", "fil", "es", "it", "pt", "tr", "ru", "hi", "ms", "id", "ar", "ja", "ko", "vi", "th", "uk", "pl", "nl", "he", "zh-CN", "zh-TW", "ur", "uz", "bn", "ro", "ne", "kk", "ta", "si", "am"];
+const languages = ["ka", "de", "fr", "fil", "es", "it", "pt", "tr", "ru", "hi", "ms", "id", "ar", "ja", "ko", "vi", "th", "uk", "pl", "nl", "he", "zh-CN", "zh-TW", "ur", "uz", "bn", "ro", "ne", "kk", "ta", "si", "am", "te", "kn", "mr", "gu", "ml", "as", "sw"];
   const translations = {};
   const TITLE_LIMIT = 100;
   const DESC_LIMIT = 5000;
@@ -260,4 +260,3 @@ function cleanupUploadedFiles() {
 
   Logger.log(`🗑️ Cleanup complete. Files deleted: ${deleted}`);
 }
-
